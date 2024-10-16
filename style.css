@@ -6,7 +6,7 @@
 
 @font-face {
     font-family: "cairo";
-    src: url(Cairo-VariableFont_slnt\,wght.ttf);
+    src: url(cairo.ttf);
 }
 *{
     margin: 0;
@@ -397,6 +397,7 @@ transform: translateY(-25px);
     .inner-back-text{
         width: 100% !important;
     }
+
     .inner-welcome img{
         margin-top: 20px;
         text-align: center;
@@ -406,3 +407,10 @@ transform: translateY(-25px);
          
         }
 }
+
+@media (max-width:767px) {
+    .inner-back-text h1 span{
+        margin: 30px;
+    }
+}
+
