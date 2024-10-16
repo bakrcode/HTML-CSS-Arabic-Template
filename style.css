@@ -17,7 +17,7 @@
     text-transform: capitalize;
     box-sizing: border-box;
     transition: .2s;
-    font-family: 'Roboto', sans-serif , "Cairo";
+    font-family: "Cairo" ;
 }
 html{
     font-size: 62.5%;
