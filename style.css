@@ -1,13 +1,16 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,400;0,600;0,700;1,100&family=Roboto:wght@100;300;400;500;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Cairo:wght@200..1000&display=swap');
 :root{
     --headerclr:#222533;
     --mainclr:#ffcb0f;
 }
-
+/* 
 @font-face {
     font-family: "cairo";
-    src: url(cairo.ttf);
-}
+    src: url(c);
+} */
+
+
 *{
     margin: 0;
     padding: 0;
@@ -398,6 +401,7 @@ transform: translateY(-25px);
         width: 100% !important;
     }
 
+
     .inner-welcome img{
         margin-top: 20px;
         text-align: center;
@@ -408,7 +412,7 @@ transform: translateY(-25px);
         }
 }
 
-@media (max-width:767px) {
+@media (max-width:600px) {
     .inner-back-text h1 span{
         margin: 30px;
     }
